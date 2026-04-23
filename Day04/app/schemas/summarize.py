@@ -7,4 +7,6 @@ class SummarizeRequest(BaseModel):
 class SummarizeResponse(BaseModel):
     summary: str
     original_length: int
+    summary_length: int
+    sentence_count: int
     message: str
